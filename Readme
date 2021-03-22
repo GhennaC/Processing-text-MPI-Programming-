@@ -1,0 +1,10 @@
+				--Tema3 APD--
+							student:Caraman Ghenadie 334CC
+A fost implementata tema utilizand in MPI, utilizand in master threaduri pentru 
+citirea si trimiterea paragrafelor fiecarui proces.Fiecare proces a procesat un tip
+ de paragraf : 1:horror,2:comedy,3:fantasy,4:science-fiction.La primirea paragrafului
+ in proces acesta utilizand o functie pentru procesarea fiecarui tip de paragrafe,dupa procesare stringul rezultat este stocat intr-un vector ,pana sunt primite toate paragrafele de acel tip si procesate(pentru a nu bloca sendul/recvul),dupa stocarea tuturor rezultatelor ,paragrafele sunt trimise spre MASTER,acesta din nou stocandu-le in vector pentru a nu bloca procesul.
+ 
+Ruland checkerul la testul 4-5 primesc time-out,dar am atasat un screenshot cu rularea locala,outputurile fiind corecte.
+						 
+
